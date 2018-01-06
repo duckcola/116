@@ -1,3 +1,4 @@
+
 {
   "name": "scoresheet-cli",
   "version": "1.0.0",
@@ -18,7 +19,12 @@
   },
   "homepage": "https://school.thoughtworks.cn",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "jasmine": "^2.6.0",
     "sinon": "^2.3.5"
+  },
+  "dependencies": {
+    "cli-interact": "^0.1.9",
+    "readline-sync": "^1.4.7"
   }
 }
